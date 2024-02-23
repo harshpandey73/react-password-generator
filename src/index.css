@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+#root{
+    background-image: url("https://wallpapers.com/images/hd/programming-hd-nutnj7cgiprbs1j2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* filter: blur(2px); */
+    z-index: -2;
+}
+.right>button{
+    border-radius: 0 12px 12px 0;
+}
+
+.right>button:hover{
+    background-color: rgb(230, 220, 220);
+}
